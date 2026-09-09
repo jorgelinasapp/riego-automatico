@@ -1,0 +1,6 @@
+La opción correcta es la B.
+
+Opción A: Está mal porque no apaga los LEDs antes de hacer una nueva lectura. Por ejemplo, si la humedad pasa de 700 a 300, el LED rojo queda prendido y también se prende el verde.
+Opción B: Es la correcta porque primero apaga todos los LEDs y después prende solo el que corresponde según la humedad.
+Opción C: Está mal porque el pin del sensor está configurado como OUTPUT. El sensor tiene que funcionar como entrada.
+Opción D: Está mal porque los valores de los umbrales están mal puestos. La condición del medio nunca puede cumplirse, porque pide que la humedad sea mayor o igual a 600 y menor o igual a 400 al mismo tiempo.
